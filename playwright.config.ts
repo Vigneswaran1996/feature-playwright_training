@@ -2,9 +2,11 @@ import type { PlaywrightTestConfig } from "@playwright/test";
 
 const config: PlaywrightTestConfig = {
 
-  testMatch : ["testrunner/Loginpage.spec.ts"],
+  // testMatch : ["Loginpage.spec.ts"],
+  testMatch : ["alerts.test.ts"],
   
   use:{
+    baseURL: 'https://bookcart.azurewebsites.net/login',
     headless: false,
     screenshot:"on",
     video:"off"
@@ -20,3 +22,4 @@ const config: PlaywrightTestConfig = {
   }]]
 
 };
+export default config;

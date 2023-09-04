@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-   "test:login":"npx playwright test"
+   "test:login":"npx playwright test Loginpage.spec.ts",
+   "test:login1":"npx playwright test"
   },
   "keywords": [],
   "author": "",
