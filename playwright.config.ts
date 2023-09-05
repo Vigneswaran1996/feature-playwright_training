@@ -3,7 +3,8 @@ import type { PlaywrightTestConfig } from "@playwright/test";
 const config: PlaywrightTestConfig = {
 
   // testMatch : ["Loginpage.spec.ts"],
-  testMatch : ["alerts.test.ts"],
+  // testMatch : ["alerts.test.ts"],
+  testMatch : ["filedownload.ts"],
   
   use:{
     baseURL: 'https://bookcart.azurewebsites.net/login',
