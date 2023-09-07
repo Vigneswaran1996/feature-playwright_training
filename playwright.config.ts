@@ -4,7 +4,10 @@ const config: PlaywrightTestConfig = {
 
   // testMatch : ["Loginpage.spec.ts"],
   // testMatch : ["alerts.test.ts"],
-  testMatch : ["filedownload.ts"],
+  // testMatch : ["demo.spec.ts"],
+  // testMatch : ["filedownload.ts"],
+  // testMatch : ["UploadTest.test.ts"],
+  testMatch : ["Elements/TextBox.test.ts"],
   
   use:{
     baseURL: 'https://bookcart.azurewebsites.net/login',

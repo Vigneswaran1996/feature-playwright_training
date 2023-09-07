@@ -12,7 +12,7 @@
     "maxFailures": 0,
     "metadata": {
       "actualWorkers": 1,
-      "totalTime": 19915.981
+      "totalTime": 17469.492
     },
     "preserveOutput": "always",
     "reporter": [
@@ -48,7 +48,7 @@
         "testDir": "D:/Playwright_Training",
         "testIgnore": [],
         "testMatch": [
-          "filedownload.ts"
+          "Elements/TextBox.test.ts"
         ],
         "timeout": 30000
       }
@@ -61,13 +61,13 @@
   },
   "suites": [
     {
-      "title": "TestRunner\\filedownload.ts",
-      "file": "TestRunner/filedownload.ts",
+      "title": "Elements\\TextBox.test.ts",
+      "file": "Elements/TextBox.test.ts",
       "column": 0,
       "line": 0,
       "specs": [
         {
-          "title": "handling file download",
+          "title": "Text box test case",
           "ok": true,
           "tags": [],
           "tests": [
@@ -81,17 +81,17 @@
                 {
                   "workerIndex": 0,
                   "status": "passed",
-                  "duration": 8988,
+                  "duration": 14569,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2023-09-05T16:38:32.363Z",
+                  "startTime": "2023-09-07T17:57:17.255Z",
                   "attachments": [
                     {
                       "name": "screenshot",
                       "contentType": "image/png",
-                      "path": "D:\\Playwright_Training\\test-results\\TestRunner-filedownload.ts-handling-file-download\\test-finished-1.png"
+                      "path": "D:\\Playwright_Training\\test-results\\Elements-TextBox-Text-box-test-case\\test-finished-1.png"
                     }
                   ]
                 }
@@ -99,51 +99,9 @@
               "status": "expected"
             }
           ],
-          "id": "733e3bdde53838822c35-50f22d52b7c1b05d6cdf",
-          "file": "TestRunner/filedownload.ts",
-          "line": 6,
-          "column": 5
-        },
-        {
-          "title": "upload a file",
-          "ok": true,
-          "tags": [],
-          "tests": [
-            {
-              "timeout": 30000,
-              "annotations": [],
-              "expectedStatus": "passed",
-              "projectId": "",
-              "projectName": "",
-              "results": [
-                {
-                  "workerIndex": 0,
-                  "status": "passed",
-                  "duration": 7480,
-                  "errors": [],
-                  "stdout": [
-                    {
-                      "text": "\u001b[33mtrue\u001b[39m\n"
-                    }
-                  ],
-                  "stderr": [],
-                  "retry": 0,
-                  "startTime": "2023-09-05T16:38:43.436Z",
-                  "attachments": [
-                    {
-                      "name": "screenshot",
-                      "contentType": "image/png",
-                      "path": "D:\\Playwright_Training\\test-results\\TestRunner-filedownload.ts-upload-a-file\\test-finished-1.png"
-                    }
-                  ]
-                }
-              ],
-              "status": "expected"
-            }
-          ],
-          "id": "733e3bdde53838822c35-0b017df3a413f68d3fbc",
-          "file": "TestRunner/filedownload.ts",
-          "line": 25,
+          "id": "2cd61347c247ef3265ff-5c95c7885e1fc383931d",
+          "file": "Elements/TextBox.test.ts",
+          "line": 7,
           "column": 5
         }
       ]

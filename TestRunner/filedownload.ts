@@ -25,6 +25,8 @@ const [download] = await Promise.all([
 test("upload a file", async({page})=>{
 
     await page.goto("https://blueimp.github.io/jQuery-File-Upload/");
+    
+    await page.waitForTimeout(5000);
 
     await page.setInputFiles("//input[@type='file']",
     
